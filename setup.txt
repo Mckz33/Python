@@ -1,0 +1,11 @@
+#criação e ativação do ambiente virtual
+
+    python -m venv .venv
+    .venv\Scripts\activate
+
+#instalação de dependencias
+
+    pip install flask
+    pip install -U spacy
+    pip install spacy-universal-sentence-encoder
+    python -m spacy download pt_core_news_lg
